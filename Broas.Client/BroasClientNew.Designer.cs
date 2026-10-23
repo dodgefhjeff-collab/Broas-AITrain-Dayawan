@@ -1,0 +1,229 @@
+﻿
+namespace Broas.Client
+{
+    partial class BroasClientNew
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BroasClientNew));
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.ClientMonitortimer = new System.Windows.Forms.Timer(this.components);
+            this.uiAvatar1 = new Sunny.UI.UIAvatar();
+            this.btnExit = new Sunny.UI.UIButton();
+            this.lblCurentUser = new System.Windows.Forms.Label();
+            this.uiPanel1 = new Sunny.UI.UIPanel();
+            this.uiLabel1 = new Sunny.UI.UILabel();
+            this.lblStationName = new System.Windows.Forms.Label();
+            this.UIPanelaside.SuspendLayout();
+            this.Header.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.uiPanel1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // Footer
+            // 
+            this.Footer.Location = new System.Drawing.Point(258, 701);
+            this.Footer.Size = new System.Drawing.Size(983, 19);
+            // 
+            // Aside
+            // 
+            this.Aside.ExpandSelectFirst = false;
+            this.Aside.FillColor = System.Drawing.Color.White;
+            this.Aside.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Aside.ForeColor = System.Drawing.Color.Black;
+            this.Aside.HoverColor = System.Drawing.Color.Silver;
+            this.Aside.ItemHeight = 70;
+            this.Aside.Location = new System.Drawing.Point(41, 178);
+            this.Aside.SelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
+            this.Aside.SelectedForeColor = System.Drawing.Color.White;
+            this.Aside.SelectedHighColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
+            this.Aside.Size = new System.Drawing.Size(200, 770);
+            // 
+            // UIPanelaside
+            // 
+            this.UIPanelaside.BackColor = System.Drawing.SystemColors.Control;
+            this.UIPanelaside.Location = new System.Drawing.Point(0, 106);
+            this.UIPanelaside.RectColor = System.Drawing.SystemColors.Control;
+            this.UIPanelaside.Size = new System.Drawing.Size(258, 614);
+            // 
+            // UIPanelout
+            // 
+            this.UIPanelout.FillColor = System.Drawing.Color.White;
+            this.UIPanelout.Location = new System.Drawing.Point(36, 50);
+            this.UIPanelout.RectColor = System.Drawing.Color.Transparent;
+            this.UIPanelout.Size = new System.Drawing.Size(206, 800);
+            this.UIPanelout.StyleCustomMode = true;
+            // 
+            // Header
+            // 
+            this.Header.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
+            this.Header.Controls.Add(this.lblStationName);
+            this.Header.Controls.Add(this.uiLabel1);
+            this.Header.Controls.Add(this.uiPanel1);
+            this.Header.Controls.Add(this.lblCurentUser);
+            this.Header.Controls.Add(this.btnExit);
+            this.Header.Controls.Add(this.uiAvatar1);
+            this.Header.Location = new System.Drawing.Point(0, 31);
+            this.Header.MenuStyle = Sunny.UI.UIMenuStyle.Custom;
+            this.Header.Size = new System.Drawing.Size(1241, 75);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.White;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(74, 9);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(189, 30);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // ClientMonitortimer
+            // 
+            this.ClientMonitortimer.Enabled = true;
+            this.ClientMonitortimer.Tick += new System.EventHandler(this.ClientMonitortimer_Tick);
+            // 
+            // uiAvatar1
+            // 
+            this.uiAvatar1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.uiAvatar1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(168)))), ((int)(((byte)(55)))));
+            this.uiAvatar1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.uiAvatar1.ForeColor = System.Drawing.Color.White;
+            this.uiAvatar1.Location = new System.Drawing.Point(1054, -2);
+            this.uiAvatar1.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiAvatar1.Name = "uiAvatar1";
+            this.uiAvatar1.Size = new System.Drawing.Size(63, 66);
+            this.uiAvatar1.Style = Sunny.UI.UIStyle.Custom;
+            this.uiAvatar1.TabIndex = 1;
+            this.uiAvatar1.Text = "uiAvatar1";
+            this.uiAvatar1.Click += new System.EventHandler(this.uiAvatar1_Click);
+            // 
+            // btnExit
+            // 
+            this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnExit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnExit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(168)))), ((int)(((byte)(55)))));
+            this.btnExit.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnExit.Location = new System.Drawing.Point(965, 12);
+            this.btnExit.MinimumSize = new System.Drawing.Size(1, 1);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(61, 32);
+            this.btnExit.Style = Sunny.UI.UIStyle.Custom;
+            this.btnExit.TabIndex = 8;
+            this.btnExit.Text = "注销";
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // lblCurentUser
+            // 
+            this.lblCurentUser.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblCurentUser.AutoSize = true;
+            this.lblCurentUser.ForeColor = System.Drawing.Color.White;
+            this.lblCurentUser.Location = new System.Drawing.Point(1123, 17);
+            this.lblCurentUser.Name = "lblCurentUser";
+            this.lblCurentUser.Size = new System.Drawing.Size(90, 21);
+            this.lblCurentUser.TabIndex = 10;
+            this.lblCurentUser.Text = "当前登陆人";
+            this.lblCurentUser.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // uiPanel1
+            // 
+            this.uiPanel1.Controls.Add(this.pictureBox1);
+            this.uiPanel1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.uiPanel1.Location = new System.Drawing.Point(-35, 3);
+            this.uiPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.uiPanel1.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiPanel1.Name = "uiPanel1";
+            this.uiPanel1.Radius = 50;
+            this.uiPanel1.RectColor = System.Drawing.Color.White;
+            this.uiPanel1.Size = new System.Drawing.Size(338, 48);
+            this.uiPanel1.Style = Sunny.UI.UIStyle.Custom;
+            this.uiPanel1.TabIndex = 11;
+            this.uiPanel1.Text = "uiPanel1";
+            // 
+            // uiLabel1（系统标题）
+            // 
+            this.uiLabel1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.uiLabel1.AutoSize = true;
+            this.uiLabel1.Font = new System.Drawing.Font("微软雅黑", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.uiLabel1.ForeColor = System.Drawing.Color.White;
+            this.uiLabel1.Location = new System.Drawing.Point(460, 2);
+            this.uiLabel1.Name = "uiLabel1";
+            this.uiLabel1.Size = new System.Drawing.Size(292, 36);
+            this.uiLabel1.Style = Sunny.UI.UIStyle.Custom;
+            this.uiLabel1.TabIndex = 12;
+            this.uiLabel1.Text = "水 质 自 动 监 测 系 统";
+            this.uiLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblStationName（标题下方站名，双击编辑）
+            // 
+            this.lblStationName.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lblStationName.AutoEllipsis = true;
+            this.lblStationName.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblStationName.Font = new System.Drawing.Font("微软雅黑", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblStationName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(220)))), ((int)(((byte)(230)))));
+            this.lblStationName.Location = new System.Drawing.Point(360, 42);
+            this.lblStationName.Name = "lblStationName";
+            this.lblStationName.Size = new System.Drawing.Size(520, 24);
+            this.lblStationName.TabIndex = 13;
+            this.lblStationName.Text = "站名：双击编辑";
+            this.lblStationName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblStationName.DoubleClick += new System.EventHandler(this.lblStationName_DoubleClick);
+            // 
+            // BroasClientNew
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.ClientSize = new System.Drawing.Size(1241, 720);
+            this.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Name = "BroasClientNew";
+            this.Padding = new System.Windows.Forms.Padding(0, 31, 0, 0);
+            this.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(101)))), ((int)(((byte)(143)))));
+            this.Text = "";
+            this.TitleHeight = 31;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ZoonoClient_FormClosing);
+            this.UIPanelaside.ResumeLayout(false);
+            this.Header.ResumeLayout(false);
+            this.Header.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.uiPanel1.ResumeLayout(false);
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Timer ClientMonitortimer;
+        private Sunny.UI.UIAvatar uiAvatar1;
+        private Sunny.UI.UIButton btnExit;
+        private System.Windows.Forms.Label lblCurentUser;
+        private Sunny.UI.UIPanel uiPanel1;
+        private Sunny.UI.UILabel uiLabel1;
+        private System.Windows.Forms.Label lblStationName;
+    }
+}

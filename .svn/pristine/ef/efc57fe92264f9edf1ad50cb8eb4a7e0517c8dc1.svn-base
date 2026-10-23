@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ShowAllFiles>true</ShowAllFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="BatteryManageMoudle\EquipmentControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BatteryManageMoudle\FormBatteryItemEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BatteryManageMoudle\FormPLC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BatteryManageMoudle\FormSLPLC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BatteryManageMoudle\HistoryDataQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BatteryManageMoudle\FormBatteryItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BatteryManageMoudle\PlcFormTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BroasClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BroasClientNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LayoutManageMoudle\ChuankouCore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LayoutManageMoudle\CountReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LayoutManageMoudle\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LayoutManageMoudle\FormAisleEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LayoutManageMoudle\FormAisleGroupRelation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LayoutManageMoudle\FormAisleGroupRelationAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LayoutManageMoudle\FormLocationEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LayoutManageMoudle\FormLocationGroupRelationInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LayoutManageMoudle\FormStationEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LayoutManageMoudle\FormWarehouseAreaEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LayoutManageMoudle\HistoryData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LayoutManageMoudle\HistoryDataOld.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LayoutManageMoudle\FormAisle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LayoutManageMoudle\HistoryDataOld.Designer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LayoutManageMoudle\FormGPS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LayoutManageMoudle\FormGPSInfoShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LayoutManageMoudle\FormLocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LayoutManageMoudle\FormLocationGroupRelation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LayoutManageMoudle\FormStation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LayoutManageMoudle\LayoutDto\SerialPortHelper.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="LayoutManageMoudle\RunLogInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LayoutManageMoudle\FormWarehouseArea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LayoutManageMoudle\RealTimeDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LayoutManageMoudle\RunLogInfoEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ReceiptManageMoudle\FormReceiptHeader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ReceiptManageMoudle\FormReceiptHeaderEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SunnyUIExt\WmsSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SunnyUIExt\WmsUIDateTimePicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserManageMoudle\FormFunctionInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserManageMoudle\FormReFunctionEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserManageMoudle\FormRoleEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserManageMoudle\FormRoleFunctionInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserManageMoudle\FormRoleFunctionSubEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserManageMoudle\FormRoleInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserManageMoudle\FormUpdatePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserManageMoudle\FormUserInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserManageMoudle\FormUserInfoEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

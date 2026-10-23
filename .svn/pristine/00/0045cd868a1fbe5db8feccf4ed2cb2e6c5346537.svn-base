@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Charts\UIBarChart.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Charts\UIBarChartEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Charts\UIChart.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Charts\UIDoughnutChart.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Charts\UILineChart.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Charts\UIPieChart.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\Color\UIColorBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\Color\UIColorTable.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\Color\UIColorWheel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\Color\UILabelRotate.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\DropItem\UIColorItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\DropItem\UIComboBoxItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\DropItem\UIComboTreeViewItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\DropItem\UIDateItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\DropItem\UIDateTimeItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\DropItem\UIDropControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\DropItem\UIDropDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\DropItem\UIDropDownItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\DropItem\UITimeItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\UIAnalogMeter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UIAvatar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UIBattery.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UIButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UICheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UICheckBoxGroup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\UIColorPicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\UIComboBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\UIComboboxEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UIComboTreeView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\UIContextMenuStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UIControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UIDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UIDatePicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\UIDateTimePicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\UIDoubleUpDown.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\UIEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UIFlowLayoutPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\UIGroupBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\UIHeaderButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UIHorScrollBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UIHorScrollBarEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UIImageButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UIImageListBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\UIIntegerUpDown.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\UILabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UILedBulb.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UILedDisplay.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UILedStopwatch.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UILight.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UILine.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UIListBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\UILogo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UIMarkLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UINavBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UINavMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UIPagination.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\UIPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\UIProcessBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UIProgressIndicator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UIRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UIRadioButtonGroup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\UIRichTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\UIRoundMeter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UIScrollBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UIScrollingText.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UISwitch.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UISymbolButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UITabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UITabControlMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UITextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\UITimePicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\UITitlePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\UIToolTip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UITrackBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UITransfer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\UITransparentPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\UITreeView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\UIVerScrollBarEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\UIWaitingBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Font\UIFontImages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\UIDataGridViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\UIEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\UIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\UIInputForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\UILoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\UIMessageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\UINotifier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\UISelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\UIStatusForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\UIWaitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frames\UIAsideHeaderMainFooterFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frames\UIAsideHeaderMainFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frames\UIAsideMainFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frames\UIHeaderAsideMainFooterFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frames\UIHeaderAsideMainFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frames\UIHeaderMainFooterFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frames\UIHeaderMainFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frames\UIMainFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pages\UIPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pages\UITitlePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Style\UIStyleManager.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
